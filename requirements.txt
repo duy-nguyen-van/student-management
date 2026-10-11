@@ -1,1 +1,1 @@
-# Runtime dependencies: Python standard library only.
+pyinstaller>=6.14

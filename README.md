@@ -129,11 +129,11 @@ Windows PowerShell:
 After activation, on all three systems:
 
 ```bash
-python -m pip install -r requirements-dev.txt
+python -m pip install -r requirements.txt
 python -c "import tkinter; print(tkinter.TkVersion)"
 ```
 
-The printed version must be `8.6`. The program runs on the Python standard library. `requirements.txt` has no runtime packages. `requirements-dev.txt` lists only PyInstaller, installed inside `.venv`.
+The printed version must be `8.6`. The program runs on the Python standard library. `requirements.txt` lists PyInstaller, the package used to build the desktop app.
 
 ## Run
 
